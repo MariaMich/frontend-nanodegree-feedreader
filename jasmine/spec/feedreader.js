@@ -102,10 +102,10 @@ $(function() {
 				});
 			});
 		});
-		// Checking if the content has changed
+		// Seeing if the content has changed
 		// Comparing the starting length before executing loadFeed
 		// to the final length after loadFeed has been executed
-		it('content is changed with every new feed loaded', function(done) {
+		it('content is changed at every new feed loaded', function(done) {
 			after = $('.feed').html();
 			expect(before).not.toBe(after);
 			done();
